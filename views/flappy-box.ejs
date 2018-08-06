@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<%- include('favicon') -%>
+<title>Flappy Box</title>
+<meta name="viewport" content="width=device-width, initial-scale=0.75">
+<script src="/js/phaser.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+<!-- centers the play area -->
+
+<style>
+canvas {
+    display: block;
+    margin: auto;
+    border-radius: 1.5em;
+    box-shadow:0 0 1em rgba(0,0,0,.25);
+    box-sizing:border-box;
+}
+</style>
+
+</head>
+
+<body>
+<h3 style="text-align: center; font-family: 'Press Start 2P', cursive;">Flappy Box</h3>
+<p style="text-align: center; font-family: 'Rajdhani', sans-serif;"><strong>On Desktop:</strong> Use your <kbd>space bar</kbd> or click your <kbd>left mouse button</kbd> to control box! Otherwise tap on your phone screen!</p>
+
+<script src="/js/flappy.js"></script>
+</body>
+
+</html>

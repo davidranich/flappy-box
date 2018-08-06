@@ -1,0 +1,30 @@
+{
+  "name": "david-ranich-dot-com",
+  "version": "1.0.0",
+  "description": "my personal website, showing off my work and such.",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidranich/david-ranich-dot-com.git"
+  },
+  "author": "David Ranich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidranich/david-ranich-dot-com/issues"
+  },
+  "homepage": "https://github.com/davidranich/david-ranich-dot-com#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
